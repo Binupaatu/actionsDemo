@@ -43,6 +43,14 @@ public class NumbersCompleteTest extends TestCase{
 		assert(o instanceof Integer);
 		assert(o.equals(5));
 	}
+public void testLargestSec() {
+		int num1 = 4;
+		int num2 = 5;
+	
+		Object o = NumbersComplete.largest(num1,num2);
+		assert(o instanceof Integer);
+		assert(o.equals(5));
+	}
 
 	//test smallest method
 	//GIVEN two numbers
@@ -52,6 +60,15 @@ public class NumbersCompleteTest extends TestCase{
 	public void testSmallest() {
 		int num1 = 5;
 		int num2 = 4;
+	
+		Object o = NumbersComplete.smallest(num1,num2);
+		assert(o instanceof Integer);
+		assert(o.equals(4));
+	}
+
+	public void testSmallestsec() {
+		int num1 = 4;
+		int num2 = 5;
 	
 		Object o = NumbersComplete.smallest(num1,num2);
 		assert(o instanceof Integer);
