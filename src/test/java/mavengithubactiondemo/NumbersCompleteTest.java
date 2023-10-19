@@ -1,6 +1,6 @@
 package mavengithubactiondemo;
 
-import junit.framework.*;
+import junit.framework.TestCase;
 
 public class NumbersCompleteTest extends TestCase{
 	
@@ -58,3 +58,4 @@ public class NumbersCompleteTest extends TestCase{
 		assert(o.equals(4));
 	}
 }
+//test
